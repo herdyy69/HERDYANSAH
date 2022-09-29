@@ -1,0 +1,90 @@
+.mainContent > .incontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: auto;
+    width: auto;
+    padding: 1px;
+}
+.imgSkill {
+    width: 45px;
+    height: auto;
+    border-radius: 15%;
+    margin: 5px;
+}
+.imgSkill:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+figure {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: auto;
+    width: auto;
+    color: black;
+}
+figcaption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nameSkill {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-family: 12px;
+}
+.space {
+    margin: 5px;
+}
+.Skill {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-color: aliceblue;
+}
+progress {
+    width: 110px;
+}
+#progper {
+    font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+    .nameSkill {
+        font-size: 10px;
+    }
+    .imgSkill {
+        width: 40px;
+        height: auto;
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nameSkill {
+        font-size: 10px;
+    }
+    .imgSkill {
+        width: 40px;
+        height: auto;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .imgSkill {
+        width: 30px;
+        height: auto;
+        margin: 1px;
+    }
+}
